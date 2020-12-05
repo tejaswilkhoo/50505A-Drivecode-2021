@@ -2,19 +2,6 @@
 #include "math.h"
 #include "printvals.h"
 
-// ---- START VEXCODE CONFIGURED DEVICES ----
-// Robot Configuration:
-// [Name]               [Type]        [Port(s)]
-// leftFront            motor         11              
-// leftBack             motor         20              
-// rightIntake          motor         15              
-// topSpin              motor         16              
-// Controller1          controller                    
-// leftIntake           motor         5               
-// bottomSpin           motor         6               
-// rightBack            motor         10              
-// rightFront           motor         1               
-// ---- END VEXCODE CONFIGURED DEVICES ----
 using namespace vex;
 
 
