@@ -213,8 +213,6 @@ int slew()
       lftrackval = 1;
     }
 
-
-
     if (rbtrackval == 0)
     {
       if(rbmovespeed<(rbexpected))
@@ -233,8 +231,7 @@ int slew()
       rbmovespeed = rbexpected;
     }
 
-
-    
+   
     if (rftrackval == 0)
     {
       if(rfmovespeed<(rfexpected))
