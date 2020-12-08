@@ -1,0 +1,2 @@
+int testValsArcade();
+int testValsTank();
