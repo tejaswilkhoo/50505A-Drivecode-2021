@@ -70,20 +70,15 @@ int driving()
 {
   while(true)
   {
- //   vex::task testssss(testValsTank);
     vex::task testsArcade(testValsArcade);
     vex::task printVals;
     vex::task intakes(intake);
     vex::task lifts(lift);
-    // lfspeed = leftFront.velocity(pct);
-    // lbspeed = leftBack.velocity(pct);
-    // rfspeed = rightFront.velocity(pct);
-    // rbspeed = rightBack.velocity(pct);
 
-    leftFront.spin(fwd, abs(lfexpected) > 10 ?    lfexpected          : 0, pct);
-    leftBack.spin(fwd, abs(lbexpected) > 10 ?        lbexpected       : 0, pct);
-    rightFront.spin(fwd, abs(rfexpected) > 10 ?    rfexpected         : 0, pct);
-    rightBack.spin(fwd, abs(rbexpected) > 10 ?         rbexpected            : 0, pct);
+    leftFront.spin(fwd, abs(lfexpected) > 10 ? lfexpected : 0, pct);
+    leftBack.spin(fwd, abs(lbexpected) > 10 ? lbexpected : 0, pct);
+    rightFront.spin(fwd, abs(rfexpected) > 10 ? rfexpected : 0, pct);
+    rightBack.spin(fwd, abs(rbexpected) > 10 ? rbexpected : 0, pct);
 
 
   }
