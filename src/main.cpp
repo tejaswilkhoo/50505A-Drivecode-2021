@@ -1,5 +1,20 @@
 #include "vex.h"
 
+// ---- START VEXCODE CONFIGURED DEVICES ----
+// Robot Configuration:
+// [Name]               [Type]        [Port(s)]
+// leftFront            motor         11              
+// leftBack             motor         20              
+// rightIntake          motor         15              
+// topSpin              motor         16              
+// Controller1          controller                    
+// leftIntake           motor         5               
+// bottomSpin           motor         6               
+// rightBack            motor         10              
+// rightFront           motor         1               
+// colorSensor          optical       3               
+// ---- END VEXCODE CONFIGURED DEVICES ----
+
 
 #include "math.h"
 #include "printvals.h"
@@ -87,6 +102,16 @@ int driving()
     return(0);
 }
 
+int senseDrive()
+{
+  //if it reads red
+  //run your transfer unit upwards
+  //if it reads blue
+  //shoot it out
+  //if nothing
+  //nothing
+  return(0);
+}
 
 
 int slew()
