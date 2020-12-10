@@ -12,7 +12,7 @@ extern motor leftIntake;
 extern motor bottomSpin;
 extern motor rightBack;
 extern motor rightFront;
-extern optical color;
+extern optical colorSensor;
 
 /**
  * Used to initialize code/tasks/devices added using tools in VEXcode Pro.

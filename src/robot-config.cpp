@@ -17,7 +17,7 @@ motor leftIntake = motor(PORT5, ratio18_1, false);
 motor bottomSpin = motor(PORT6, ratio6_1, false);
 motor rightBack = motor(PORT10, ratio6_1, true);
 motor rightFront = motor(PORT1, ratio18_1, true);
-optical color = optical(PORT3);
+optical colorSensor = optical(PORT3);
 
 // VEXcode generated functions
 // define variable for remote controller enable/disable
